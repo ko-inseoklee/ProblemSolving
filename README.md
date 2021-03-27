@@ -6,4 +6,4 @@
 
 #### 29. Divide Tow Integers
   - Reivew: [Velog](https://velog.io/@ko-inseoklee/Problem-Solving-29.-Divide-Two-Integers)   
-  - Code: [Code](./2.AddTwoNumbers.py)
+  - Code: [Code](./29.DivideTwoIntegers.py)
