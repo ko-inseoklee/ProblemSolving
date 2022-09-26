@@ -1,10 +1,10 @@
 function solution(n, times) {
     var answer = 0;
 
-    times.sort(); 
+    times.sort((a,b) => a - b); 
     
     //right 범위 설정(최대 심사인원 * 최대 입국심사 시간)
-    var right = times[times.length-1] * n;
+    var right = Math.floor((times[times.length - 1] * n) / times.length);
     var left = 1;
     
     while(left < right){
